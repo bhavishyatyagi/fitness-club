@@ -54,7 +54,7 @@ function Contact() {
               </li>
             </ul>
 
-            <a href="https://g.page/muscle-stone-fitness?share">
+            <a href="https://goo.gl/maps/fXTMrhryvRLYSU1UA" target="_blank">
               <img className="map" src={Map} alt="" />
             </a>
           </div>
@@ -64,6 +64,7 @@ function Contact() {
           <form action="https://formspree.io/f/mnqyqene" method="POST">
             <input type="text" placeholder="First Name" name="Name" required />
             <input type="email" placeholder="Email" name="E-mail" required />
+            <input type="number" placeholder="Phone Number" name="Phone Number" required />
             <textarea placeholder="Write Here......" name="Message" required />
             <input type="submit" value="send" />
           </form>
